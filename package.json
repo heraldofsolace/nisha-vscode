@@ -1,0 +1,29 @@
+{
+    "name": "nisha",
+    "displayName": "Nisha",
+    "description": "Dark colorscheme for VS Code",
+    "version": "0.0.1",
+    "publisher": "heraldofsolace",
+    "repository": "https://github.com/heraldofsolace/nisha-vscode",
+    "engines": {
+        "vscode": "^1.47.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Nisha",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Nisha-color-theme.json"
+            }
+        ]
+    },
+    "dependencies": {
+        "ejs": "^3.1.3"
+    },
+    "scripts": {
+        "build": "node scripts/build.js"
+    }
+}
