@@ -4,13 +4,28 @@
     "description": "Dark colorscheme for VS Code",
     "version": "0.0.1",
     "publisher": "heraldofsolace",
-    "repository": "https://github.com/heraldofsolace/nisha-vscode",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/heraldofsolace/nisha-vscode"
+    },
     "engines": {
         "vscode": "^1.47.0"
     },
     "categories": [
         "Themes"
     ],
+    "keywords": [
+		"nisha",
+		"dark",
+		"theme",
+        "color-theme",
+        "dark-theme"
+    ],
+    "icon": "icon.png",
+	"galleryBanner": {
+		"color": "#f14358",
+		"theme": "dark"
+	},
     "contributes": {
         "themes": [
             {
