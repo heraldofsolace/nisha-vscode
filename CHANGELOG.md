@@ -1,9 +1,10 @@
 # Change Log
 
-All notable changes to the "nisha" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
 ## [Unreleased]
 
+## [1.0.0] - 2020-07-20
+
+- Add License
+
+## [0.0.1] - 2020-07-19
 - Initial release
