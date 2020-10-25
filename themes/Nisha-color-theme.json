@@ -1,3 +1,20 @@
+/*
+* Nisha: Dark colorscheme for VS Code
+* Copyright (C) 2020  Aniket Bhattacharyea
+*
+* This program is free software: you can redistribute it and/or modify
+* it under the terms of the GNU General Public License as published by
+* the Free Software Foundation, either version 3 of the License, or
+* (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program.  If not, see <https://www.gnu.org/licenses/>.
+*/
 {
 	"name": "Nisha",
 	"type": "dark",
@@ -16,14 +33,14 @@
         "input.background": "#191a21",
         "input.border": "#191a21",
         "input.foreground": "#efe6dd",
-        "input.placeholderForeground": "#c2aa91",
+        "input.placeholderForeground": "#e8c19b",
         "inputOption.activeBorder": "",
         "inputValidation.errorBackground": "#f14358",
         "inputValidation.errorBorder": "#f14358",
-        "inputValidation.infoBackground": "#c2aa91",
-        "inputValidation.infoBorder": "#c2aa91",
-        "inputValidation.warningBackground": "#c2aa91",
-        "inputValidation.warningBorder": "#c2aa91",
+        "inputValidation.infoBackground": "#e8c19b",
+        "inputValidation.infoBorder": "#e8c19b",
+        "inputValidation.warningBackground": "#e8c19b",
+        "inputValidation.warningBorder": "#e8c19b",
 	},
 	"tokenColors": [
 		{
@@ -44,7 +61,7 @@
 				"string constant.other.placeholder"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -53,7 +70,7 @@
 				"constant.other.color"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -94,7 +111,7 @@
 				"keyword.other.substitution"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
         },
         {
@@ -112,7 +129,7 @@
 				"markup.deleted.git_gutter"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -176,7 +193,7 @@
 				"meta.group.braces.curly constant.other.object.key.js string.unquoted.label.js"
 			],
 			"settings": {
-				"foreground": "#c2aa91"
+				"foreground": "#e8c19b"
 			}
 		},
 		{
@@ -192,7 +209,7 @@
 				"support.type.sys-types"
 			],
 			"settings": {
-				"foreground": "#c2aa91"
+				"foreground": "#e8c19b"
 			}
 		},
 		{
@@ -236,7 +253,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ab797a"
+				"foreground": "#ea93c2"
 			}
 		},
 		{
@@ -322,7 +339,7 @@
 				"markup.changed"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -331,7 +348,7 @@
 				"string.regexp"
 			],
 			"settings": {
-				"foreground": "#ab797a"
+				"foreground": "#ea93c2"
 			}
 		},
 		{
@@ -340,7 +357,7 @@
 				"constant.character.escape"
 			],
 			"settings": {
-				"foreground": "#ab797a"
+				"foreground": "#ea93c2"
 			}
 		},
 		{
@@ -382,7 +399,7 @@
 				"source.json meta.structure.dictionary.json support.type.property-name.json"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -432,7 +449,7 @@
 			],
 			"settings": {
 				"fontStyle": "italic",
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -443,7 +460,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold",
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -458,7 +475,7 @@
 			],
 			"settings": {
 				"fontStyle": "bold,italic",
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -468,7 +485,7 @@
 			],
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -477,7 +494,7 @@
 				"markup.quote punctuation.definition.blockquote.markdown"
 			],
 			"settings": {
-				"foreground": "#c2aa91"
+				"foreground": "#e8c19b"
 			}
 		},
 		{
@@ -504,7 +521,7 @@
 				"string.other.link.description.title.markdown"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		},
 		{
@@ -513,7 +530,7 @@
 				"constant.other.reference.link.markdown"
 			],
 			"settings": {
-				"foreground": "#c2aa91"
+				"foreground": "#e8c19b"
 			}
 		},
 		{
@@ -522,7 +539,7 @@
 				"markup.raw.block"
 			],
 			"settings": {
-				"foreground": "#ab797a"
+				"foreground": "#ea93c2"
 			}
 		},
 		{
@@ -580,7 +597,7 @@
 				"markup.table"
 			],
 			"settings": {
-				"foreground": "#ff7d55"
+				"foreground": "#dd816a"
 			}
 		}
 	]
